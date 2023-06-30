@@ -1,5 +1,5 @@
 /**
- * @name Miles Morales
+ * @name frwqrwq
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -12,19 +12,19 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #000000;
-  --hover-color: #FFFFFF;
-  --success-color: #673AB7;
+  --main-color: #2780e6;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
   --danger-color: #982929;
-  --url-color: #FFFFFF;
-  --background-image: url('https://c4.wallpaperflare.com/wallpaper/656/107/647/movie-spider-man-into-the-spider-verse-miles-morales-spider-man-wallpaper-preview.jpg');
+  --url-color: var(--main-color);
+  --background-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 100%;
-  --background-contrast: 214%;
+  --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
@@ -42,23 +42,23 @@
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
   --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
-  --user-modal-position: top left;
-  --user-modal-size: contain;
+  --user-modal-position: center;
+  --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
-  --user-modal-brightness: 69%;
-  --user-modal-contrast: 176%;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 4px;
-  --home-icon: url('https://e0.pxfuel.com/wallpapers/476/425/desktop-wallpaper-top-45-spider-man-miles-morales-miles-morales-background-cool-miles-morales.jpg');
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #00FF86;
+  --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
