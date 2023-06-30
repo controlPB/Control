@@ -1,5 +1,5 @@
 /**
- * @name frwqrwq
+ * @name Theme
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -12,12 +12,12 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
-  --success-color: #43b581;
-  --danger-color: #982929;
+  --main-color: #FF005C;
+  --hover-color: #FFFFFF;
+  --success-color: #2EB377;
+  --danger-color: #B54444;
   --url-color: var(--main-color);
-  --background-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --background-image: url('https://wallpapercave.com/wp/wp4279135.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -30,7 +30,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-image: url('https://wallpapercave.com/wp/wp4279135.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -52,7 +52,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-icon: transparent;
   --home-position: center;
   --home-size: 40px;
   --channel-unread: var(--main-color);
@@ -86,5 +86,4 @@
 }
 
 /* Any custom CSS below here */
-
 
